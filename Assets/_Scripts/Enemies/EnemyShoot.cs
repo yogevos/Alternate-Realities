@@ -60,7 +60,7 @@ public class EnemyShoot : MonoBehaviour
                     }
 
                     // inside " " is the name of the sound we want to play
-                    AudioSystem.Instance.Play(" ");
+                    //AudioSystem.Instance.Play(" ");
                     Instantiate(FireVFX, transform.position, Quaternion.identity);
                 }
 
